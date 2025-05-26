@@ -2,14 +2,28 @@
   text-align: center;
 }
 
-.nav {
-  padding: 20px;
-  text-align: center;
+.header {
+  display: flex;
+  padding: 10px 20px;
+  align-items: center;
+  justify-content: space-between;
   background-color: #000;
 }
 
+.logo__img {
+  display: block;
+  width: 40px;
+  height: 40px;
+  border-radius: 8px;
+}
+
+.nav {
+  display: inline-block;
+  text-align: center;
+}
+
 .nav__link {
-  padding: 0 20px;
+  margin-left: 40px;
   color: #fff;
   text-decoration: none;
 }
