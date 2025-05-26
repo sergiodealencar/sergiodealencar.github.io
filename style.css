@@ -48,3 +48,13 @@
   text-align: center;
   line-height: 80px;
 }
+
+.outer {
+  height: 200px;
+  background-color: #ffd700;
+}
+
+.inner {
+  height: 100px;
+  background-color: #0057b7;
+}
